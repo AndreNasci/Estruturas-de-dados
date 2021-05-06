@@ -1,7 +1,11 @@
+// André Nascimento
+// GitHub: https://github.com/AndreNasci
+// Linkedin: linkedin.com/in/andré-nascimento-a01095185
+
 //listaEstaticaSequencialInt.c
 
-// Tipo: int (os itens da lista n�o int)
-// Esse c�digo instancia, insere, imprime,
+// Tipo: int (os itens da lista não int)
+// Esse código instancia, insere, imprime,
 // busca e remove itens de uma lista estatica
 // sequencial.
 
@@ -32,7 +36,7 @@ int buscaSeq(int chave);
 //retorna a posicao de um item
 int buscaBin(int chave);
 
-// ======== Main ========
+// ======== main ========
 int main(void) {
     int aux, i;
 
@@ -74,6 +78,7 @@ int main(void) {
     return 0;
 }//end main
 
+// ======== Funcoes ========
 //retorna o primeiro item ou
 //-1 se a lista estiver vazia
 int primeiroItem(){
