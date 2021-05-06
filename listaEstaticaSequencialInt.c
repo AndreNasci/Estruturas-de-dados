@@ -4,7 +4,7 @@
 
 //listaEstaticaSequencialInt.c
 
-// Tipo: int (os itens da lista não int)
+// Tipo: int (os itens da lista são int)
 // Esse código instancia, insere, imprime,
 // busca e remove itens de uma lista estatica
 // sequencial.
