@@ -78,7 +78,9 @@ int main(void) {
     return 0;
 }//end main
 
+
 // ======== Funcoes ========
+
 //retorna o primeiro item ou
 //-1 se a lista estiver vazia
 int primeiroItem(){
@@ -113,6 +115,9 @@ void imprimeLista(){
     printf("\n");
 }//end imprimeLista
 
+//insere um item na lista e retorna true
+//ou nao insere (se a lista estiver cheia)
+//  e retorna false
 bool insereItem(int valor){
     int i = dispo;
 
